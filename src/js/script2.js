@@ -304,7 +304,6 @@ function get_section(){
 }
 function section_change(){
   let sr=get_section()
-  console.log(sr)
   subject_clicked(document.getElementById("select-subject"))
 }
 
